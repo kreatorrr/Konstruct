@@ -132,6 +132,7 @@ body {
   align-items: center;
   flex-direction: row;
   padding: 24px 250px;
+  margin-bottom: 80px;
 }
 .nav-card {
   transition: 0.25s;
@@ -149,12 +150,19 @@ nav {
 /* about */
 .about-h2 {
   text-align: center;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
   color: var(--color-gray);
-  margin-bottom: 70px;
+  margin-bottom: 10px;
 }
-.about-block{
+.about-line {
+  width: 50px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: var(--color-blue);
+  margin-bottom: 50px;
+}
+.about-block {
   align-items: center;
   margin-bottom: 120px;
 }
@@ -184,7 +192,7 @@ nav {
   margin-left: auto;
   margin-right: 0;
 }
-.about-card{
+.about-card {
   max-width: px;
   color: var(--color-white);
   font-size: 48px;
@@ -208,4 +216,44 @@ nav {
 }
 .about-card:not(:last-child) {
   margin-right: 30px;
+}
+/* service */
+.service-h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-gray);
+  margin-bottom: 10px;
+}
+.service-line {
+  width: 50px;
+  height: 2px;
+  background-color: var(--color-blue);
+  margin-bottom: 50px;
+}
+.service-left {
+  max-height: 210px;
+}
+.service-p {
+  max-width: 400px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 23px;
+  color: var(--color-gray);
+  margin-right: 30px;
+}
+.service-block {
+  flex-direction: row;
+  align-items: baseline;
+}
+.service-right {
+  margin-left: auto;
+  align-items: center;
+  flex-direction: row;
+}
+.service-btn {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  padding: 11px 29px;
 }
